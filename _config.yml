@@ -1,13 +1,11 @@
 title:       "Mentor Name"
 email:       "mentor@example.com"
-description: >- # this means “ignore newlines until the next tag”
+description: >-
   A short tagline or bio for your mentor.
-baseurl:     "" # the subpath of your site, e.g. /blog
-url:         "https://adambournes21.github.io" # the base hostname & protocol
+baseurl:     ""
+url:         "https://adambournes21.github.io"
 
-# Remote theme settings (no local gem needed)
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: jekyll-theme-cayman  # or architect, leap-day, minima, etc.
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
