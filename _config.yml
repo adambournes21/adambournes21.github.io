@@ -4,8 +4,3 @@ description: >-
   A short tagline or bio for your mentor.
 baseurl:     ""
 url:         "https://adambournes21.github.io"
-
-theme: jekyll-theme-cayman  # or architect, leap-day, minima, etc.
-
-plugins:
-  - jekyll-feed
