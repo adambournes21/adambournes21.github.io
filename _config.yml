@@ -1,18 +1,13 @@
-title:      "Mentor Name"
-email:      "mentor@example.com"
+title:       "Mentor Name"
+email:       "mentor@example.com"
 description: >- # this means “ignore newlines until the next tag”
   A short tagline or bio for your mentor.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://adambournes21.github.io" # the base hostname & protocol
-theme: minimal-mistakes-jekyll
+baseurl:     "" # the subpath of your site, e.g. /blog
+url:         "https://adambournes21.github.io" # the base hostname & protocol
 
-# Minimal Mistakes settings (you can enable/disable modules here)
+# Remote theme settings (no local gem needed)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-feed
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: false
+  - jekyll-remote-theme
