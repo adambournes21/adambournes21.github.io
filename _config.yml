@@ -1,0 +1,18 @@
+title:      "Mentor Name"
+email:      "mentor@example.com"
+description: >- # this means “ignore newlines until the next tag”
+  A short tagline or bio for your mentor.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://<username>.github.io" # the base hostname & protocol
+theme: minimal-mistakes-jekyll
+
+# Minimal Mistakes settings (you can enable/disable modules here)
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: false
